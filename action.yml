@@ -1,6 +1,6 @@
-name: Deliverybot Helm Action
+name: Fork of Deliverybot Helm Action
 description: Deploys a helm chart
-author: deliverybot
+author: parsleyhealth
 icon: box
 color: gray-dark
 inputs:
