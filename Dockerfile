@@ -5,7 +5,7 @@ ENV BASE_URL="https://get.helm.sh"
 ENV HELM_3_FILE="helm-v3.4.2-linux-amd64.tar.gz"
 
 RUN apk add --no-cache ca-certificates \
-    --repository http://dl-3.alpinelinux.org/alpine/edge/community/ \
+    --repository http://dl-3.alpinelinux.org/alpine/v3.16/edge/community/ \
     jq curl bash nodejs aws-cli && \
     # Install helm version 3:
     curl -L ${BASE_URL}/${HELM_3_FILE} |tar xvz && \
